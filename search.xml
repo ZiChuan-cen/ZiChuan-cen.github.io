@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>git命令</title>
+      <link href="/2023/03/31/git%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/03/31/git%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="已有本地仓库，且与远程连接"><a href="#已有本地仓库，且与远程连接" class="headerlink" title="已有本地仓库，且与远程连接"></a>已有本地仓库，且与远程连接</h3><blockquote><p>一、git pull origin branch</p></blockquote><p>将本地代码与远程仓库进行同步，origin为默认的远程仓库的名字，branch为远程仓库中的某一分支。</p><blockquote><p>二、git status</p></blockquote><p>查看本地代码当前状态</p><blockquote><p>三、git add </p></blockquote><p>1、git add .&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录<br>2、git add -u .&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-u 表示将已跟踪文件中的<strong>修改和删除</strong>的文件添加到暂存区，不包括新增加的文件，当这些被删除的文件被加入到暂存区，再被提交并推送到服务器的版本库之后，这个文件就会从git系统中消失了。<br>3、git add -A .&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-A 表示将所有的已跟踪的文件的修改与删除和新增的未跟踪的文件都添加到暂存区。</p><blockquote><p>四、git comit</p></blockquote><p>git commit &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 主要是将暂存区里的改动给提交到本地的版本库。<br>1、git commit -m “message”   &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;     message表示这次提交的简要说明，如果没有-m，则不能添加message。<br>2、git commit -am “message”  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  -am等同于-a -m-a参数，可以将所有已跟踪文件中的执行修改或删除操作的文件都提交到本地仓库，即使它们没有经过git add添加到暂存区。</p><blockquote><p>git push</p></blockquote><p>最后一步将本地版本库的分支推送到远程服务器上对应的分支。<br>1、git push &lt;远程主机名&gt; &lt;本地分支名&gt; &lt;远程分支名&gt;<br>例如 git push origin master : refs&#x2F;for&#x2F;master，即是将本地的master分支推送到远程主机origin上的对应master分支，origin 是远程主机名。第一个master是本地分支名，第二个master是远程分支名。<br>2、git push origin master<br>如果远程分支被省略，则表示将本地分支推送到与之存在追踪关系的远程分支（通常两者同名），如果该远程分支不存在，则会被新建。<br>3、git push origin ：refs&#x2F;for&#x2F;master<br>如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支，等同于 git push origin –delete master<br>4、git push origin<br>如果当前分支与远程分支存在追踪关系，则本地分支和远程分支都可以省略，将当前分支推送到origin主机的对应分支<br>5、git push<br>如果当前分支只有一个远程分支，那么主机名都可以省略，形如 git push，可以使用git branch -r ，查看远程的分支名</p><h3 id="本地存在仓库，且未与远程仓库建立连接"><a href="#本地存在仓库，且未与远程仓库建立连接" class="headerlink" title="本地存在仓库，且未与远程仓库建立连接"></a>本地存在仓库，且未与远程仓库建立连接</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 代码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo命令</title>
       <link href="/2023/03/30/hexo%E5%91%BD%E4%BB%A4/"/>
       <url>/2023/03/30/hexo%E5%91%BD%E4%BB%A4/</url>
