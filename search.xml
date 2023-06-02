@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>编辑技巧</title>
+      <link href="/2023/06/02/%E7%BC%96%E8%BE%91%E6%8A%80%E5%B7%A7/"/>
+      <url>/2023/06/02/%E7%BC%96%E8%BE%91%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<h3 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h3><p>主要包括是 加粗 倾斜 下划线，可以通过快捷键，菜单，鼠标右键完成：</p><ul><li><p>加粗的快捷键是<code>Ctrl + B</code>，或者输入两个<code>**</code>包围需要加粗的文字；</p></li><li><p>倾斜的快捷键是<code>Ctrl + I</code>，或者输入<code>*</code>标签围绕需要倾斜的文字；</p></li><li><p>下划线的快捷键是<code>Ctrl + U</code>，或者输入<code>&lt;u&gt;  &lt;/u&gt;</code>标签围绕需要下划线的文字。</p></li></ul><p>字体、颜色，需要通过html的标签完成。Typora中，我是通过手工输入html及css标记完成的。如绿色的html就是通过font标签实现的：<font face="黑体" color=green size=5>html</font></p><h3 id="段落及标题"><a href="#段落及标题" class="headerlink" title="段落及标题"></a>段落及标题</h3><p>这部分可以通过快捷键 <code>Ctrl + 0~6</code>来实现，如<code>Ctrl+ 0</code>是段落，<code>Ctrl + 1</code>是一级标题等。</p><p>代码块</p><p>插入代码块的快捷键是<code>Ctrl + Shift +`</code>;</p><p>也可以右键，选择插入–代码块实现；</p><p>我是通过直接输入3个点（键盘左上角的那个键，Esc的下方）。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/04/18/hello-world/"/>
       <url>/2023/04/18/hello-world/</url>
