@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Zigbee模块配置</title>
+      <link href="/2024/04/07/Zigbee%E6%A8%A1%E5%9D%97%E9%85%8D%E7%BD%AE/"/>
+      <url>/2024/04/07/Zigbee%E6%A8%A1%E5%9D%97%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Zigbee模块"><a href="#Zigbee模块" class="headerlink" title="Zigbee模块"></a>Zigbee模块</h3><p>zigbee模块图片：</p><img src="https://s2.loli.net/2024/04/07/jYI5LHJ7lO8ARDN.jpg" alt="zigbee.jpg" style="zoom:25%;" /><h2 id="使用介绍"><a href="#使用介绍" class="headerlink" title="使用介绍"></a>使用介绍</h2><blockquote><p>（1）这款模块，让他VCC接+5V，GND接GND，即可正常工作。<br>（2）但是这个模块刚买过来的时候，需要进行配置，按照如下步骤来。</p></blockquote><h4 id="第一步，进入配置模式"><a href="#第一步，进入配置模式" class="headerlink" title="第一步，进入配置模式"></a>第一步，进入配置模式</h4><blockquote><p>（1）不要通电，按住下面这个唯一的按键.<br>（2）按住按键之后，再进行通电。<br>（3）然后松手进入配置模式。</p></blockquote><h4 id="第二步，设置波特率"><a href="#第二步，设置波特率" class="headerlink" title="第二步，设置波特率"></a>第二步，设置波特率</h4><blockquote><p>（1）进入配置模式之后，我们现在可以设置波特率了。<br>（2）短按那个唯一的按键，即可设置波特率。波特率配置表如下。</p></blockquote><p><img src="https://s2.loli.net/2024/04/07/cRIQPM6L5yFpsB3.png" alt=".png"></p><h4 id="第三步，设置频道"><a href="#第三步，设置频道" class="headerlink" title="第三步，设置频道"></a>第三步，设置频道</h4><blockquote><p>（1）配置完波特率之后，长按那个唯一的按键。直到四个LED循环闪烁，然后松手。<br>（2）zigbee DL-20无线串口收发模块的频道有2^4&#x3D;16个。这个频道的作用，就是让两个zigbee DL-20无线串口收发模块能够对接通讯。<br>（3）短按那个唯一的按键，设置频段。<br>（4）注意：这个两个模块的频道必须一致！否则无法通讯，波特率可以不一样。<br>（5）我这里设置为四个LED都闪烁的频段。</p></blockquote><h4 id="第四步，设置模式"><a href="#第四步，设置模式" class="headerlink" title="第四步，设置模式"></a>第四步，设置模式</h4><blockquote><p>（1）频段设置完成之后，长按唯一的按键，直到四个LED循环闪烁，进入模式设置。<br>（2）如果想让两个模块单独通讯，那么就让一个设置A端，一个模块为B端。这样才能进行有效通讯。<br>（3）广播模式不用管。</p></blockquote><p><img src="https://s2.loli.net/2024/04/07/4WFrYoqbQ1ylLMI.png" alt=".png"></p><h4 id="第五步，确认设置"><a href="#第五步，确认设置" class="headerlink" title="第五步，确认设置"></a>第五步，确认设置</h4><blockquote><p>（1）如果前面有一步设置配置出现问题，我们可以直接断电，重新按第一步来执行。<br>（2）如果配置没有问题，长按按键，直到四个LED循环闪烁。按键松开，LED常亮2S。配置完成。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 模块 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git常见错误</title>
       <link href="/2024/03/09/Git%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
       <url>/2024/03/09/Git%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</url>
@@ -24,6 +43,12 @@
         <content type="html"><![CDATA[<p>​任务实际上就是一个无限循环且不带返回值的 C 函数。一个任务的三要素是任务主体函数，任务栈，任务控制块；</p><h3 id="1、静态创建"><a href="#1、静态创建" class="headerlink" title="1、静态创建"></a>1、静态创建</h3>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
       
     </entry>
     
